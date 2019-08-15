@@ -1,4 +1,5 @@
-FROM jetbrains/upsource:${VERSION}
+ARG VERSION
+FROM jetbrains/upsource:VERSION
 
 USER root
 
